@@ -1,4 +1,4 @@
-[![Build status](https://travis-ci.org/newslynx/newslynx-sc-facebook.svg)](https://travis-ci.org/newslynx/newslynx-sc-facebook) [![Documentation Status](https://readthedocs.org/projects/newslynx-sc-facebook/badge/?version=latest)](https://readthedocs.org/projects/newslynx-sc-facebook/?badge=latest)
+[![Build status](https://travis-ci.org/newslynx/newslynx-sc-facebook.svg)](https://travis-ci.org/newslynx/newslynx-sc-facebook) [![Documentation Status](https://readthedocs.org/projects/newslynx-sc-facebook/badge/?version=latest)](http://newslynx-sc-facebook.readthedocs.org/)
 
 newslynx-sc-facebook
 ==========================================================================================
