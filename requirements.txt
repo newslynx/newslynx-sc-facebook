@@ -1,4 +1,4 @@
 nose
 sphinx
 newslynx
-facepy
+facepy==1.0.6
