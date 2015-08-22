@@ -22,6 +22,10 @@ options:
         default: pending
         help:
             placeholder: "pending"
+            description: |
+                Set the status of the resulting events. 
+                Choose from pending and approved. 
+                Defaults to pending.
 
     set_event_title:
         input_type: text
@@ -29,7 +33,7 @@ options:
             - string
         default: null
         help:
-            placeholder: "Something amazing happened."
+            placeholder: Something amazing happened."
 
     set_event_description:
         input_type: paragraph
