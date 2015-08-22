@@ -7,17 +7,16 @@ creates: metrics
 option_order: []
 options:
     
-    page_name:
+    page_id:
         input_type: text
         value_types:
             - string
-        accepts_list: true
         required: true
         help:
-            placeholder: ProPublica
+            placeholder: propalpatine
             description: |
-                The name of your facebook page.
-
+                This is what comes after the "facebook.com/" in the url for your facebook page.
+                Do not include the full URL.
 metrics:
 
     fb_page_likes:
