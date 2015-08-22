@@ -224,7 +224,7 @@ Options
 In addition to default recipe options,
 ``facebook-page-to-org-timeseries`` also accepts the following
 
--  ``page_name``
+-  ``page_id``
 
    -  **Required**
    -  Should be rendered with a ``text`` form.
