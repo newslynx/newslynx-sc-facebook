@@ -1,7 +1,7 @@
 name: Facebook Page to Event
 slug: facebook-page-to-event
 description: Extracts events from a facebook page.
-runs: newslynx.sc.events.facebook.Page
+runs: newslynx_sc_facebook.events.Page
 creates: events
 option_order:
     - name
@@ -44,7 +44,7 @@ options:
         required: false
         help:
             placeholder: "false"
-            description: Only create an event if there is a link to an existing content item.
+            description: Only create an event if the post contains a link to an existing content item.
 
     search_query:
         input_type: text
@@ -54,7 +54,7 @@ options:
         required: false
         help:
             description: |
-                A search query to apply to the 
+                A search query to apply to the text and urls of posts on the page
             placeholder: "~fracking | drilling"
 
     set_event_title:
@@ -64,9 +64,22 @@ options:
         default: null
         help:
             placeholder: "Promotion Event"
+            description: |
+                Set's the title of the resulting events. This can be a python format string which 
+                has access to all of an event's top-level keys:
+                IE:
+                "Facebook post by {authors} at {created}."
+
 
     set_event_description:
         input_type: paragraph
         value_types: 
             - string
         default: null
+        help:
+            placeholder: "Promotion Event"
+            description: |
+                Set's the  description of the resulting events. This can be a python format string which 
+                has access to all of an event's top-level keys:
+                IE:
+                "{title}."
