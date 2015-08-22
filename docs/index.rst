@@ -1,5 +1,7 @@
-|travis-img| newslynx-sc-facebook
-==========================================================================================
+|Build status| |Documentation Status|
+
+newslynx-sc-facebook
+====================
 
 This module contains all Sous Chefs which deal with Facebook via
 \`facepy\`.
@@ -151,7 +153,10 @@ What's in this module ?
 
    -  ``nose`` tests for ``newslynx-sc-facebook``
 
-.. |travis-img| image:: https://travis-ci.org/newslynx/newslynx-sc-facebook.svg
+.. |Build status| image:: https://travis-ci.org/newslynx/newslynx-sc-facebook.svg
+   :target: https://travis-ci.org/newslynx/newslynx-sc-facebook
+.. |Documentation Status| image:: https://readthedocs.org/projects/newslynx-sc-facebook/badge/?version=latest
+   :target: http://newslynx-sc-facebook.readthedocs.org/
 
 Contents
 --------
