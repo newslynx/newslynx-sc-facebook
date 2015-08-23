@@ -11,7 +11,6 @@ Installation
 
 .. code:: bash
 
-    $ mkvirtualenv newslynx-sc-facebook
     $ git clone https://github.com/newslynx/newslynx-sc-facebook.git
     $ cd newslynx-sc-facebook
     $ pip install .

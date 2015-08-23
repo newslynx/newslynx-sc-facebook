@@ -3,7 +3,7 @@ all:
 	make clean
 	make install 
 	make all_tests 
-	make sous_chef_docs
+	make all_docs
 	
 
 clean:
