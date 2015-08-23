@@ -3,6 +3,7 @@ Sous Chefs
 -------------
 **newslynx-sc-facebook** provides access to the following Sous Chefs
 
+RUNS newslynx_sc_facebook.events.Page
 Facebook Page to Event
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -183,6 +184,7 @@ accepts the following
 
 
 
+RUNS newslynx_sc_facebook.metrics.Page
 Facebook Page Timeseries Metrics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
