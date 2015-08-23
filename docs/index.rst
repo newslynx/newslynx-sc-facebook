@@ -3,14 +3,12 @@
 newslynx-sc-facebook
 ====================
 
-This module contains all Sous Chefs which deal with Facebook via
-\`facepy\`.
-
 Installation
 ------------
 
 .. code:: bash
 
+    $ mkvirtualenv newslynx-sc-facebook
     $ git clone https://github.com/newslynx/newslynx-sc-facebook.git
     $ cd newslynx-sc-facebook
     $ pip install .
@@ -24,8 +22,8 @@ Requires ``nose``
 
     $ nosetests
 
-Documenation
-------------
+Documentation
+-------------
 
 Documentation for ``newslynx-sc-facebook`` is hosted on `Read The
 Docs <http://newslynx-sc-facebook.readthedocs.org/>`__.
@@ -39,7 +37,7 @@ It's generated via the following steps
    documentation for all the Sous Chefs in ``newslynx-sc-facebook`` and
    saves the output to
    `docs/sous-chefs.rst <https://github.com/newslynx/newslynx-sc-facebook/blob/master/docs/sous-chefs.rst>`__
--  Builds Sphinx Documentaiton from these files.
+-  Builds Sphinx Documentation from these files.
 
 Continuous Integration
 ----------------------
@@ -78,7 +76,7 @@ What's in this module ?
 -  `setup.py <https://github.com/newslynx/newslynx-sc-facebook/blob/master/setup.py>`__
 
    -  Specification's for building ``newslynx-sc-facebook``'s PyPI
-      dsitribution.
+      distribution.
 
 -  `.travis.yml <https://github.com/newslynx/newslynx-sc-facebook/blob/master/.travis.yml>`__
 
@@ -155,7 +153,7 @@ What's in this module ?
 .. |Build status| image:: https://travis-ci.org/newslynx/newslynx-sc-facebook.svg
    :target: https://travis-ci.org/newslynx/newslynx-sc-facebook
 .. |Documentation Status| image:: https://readthedocs.org/projects/newslynx-sc-facebook/badge/?version=latest
-   :target: http://newslynx-sc-facebook.readthedocs.org/
+   :target: https://readthedocs.org/projects/newslynx-sc-facebook/?badge=latest
 
 Contents
 --------

@@ -4,7 +4,6 @@ all:
 	make install 
 	make all_tests 
 	make all_docs
-	
 
 clean:
 
@@ -16,7 +15,7 @@ install:
 
 all_tests:
 
-	nosetests
+	nosetests --exe
 
 register:
 

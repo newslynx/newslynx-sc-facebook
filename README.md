@@ -1,13 +1,14 @@
-[![Build status](https://travis-ci.org/newslynx/newslynx-sc-facebook.svg)](https://travis-ci.org/newslynx/newslynx-sc-facebook) [![Documentation Status](https://readthedocs.org/projects/newslynx-sc-facebook/badge/?version=latest)](http://newslynx-sc-facebook.readthedocs.org/)
+[![Build status](https://travis-ci.org/newslynx/newslynx-sc-facebook.svg)](https://travis-ci.org/newslynx/newslynx-sc-facebook) [![Documentation Status](https://readthedocs.org/projects/newslynx-sc-facebook/badge/?version=latest)](https://readthedocs.org/projects/newslynx-sc-facebook/?badge=latest)
 
 newslynx-sc-facebook
 ==========================================================================================
 
-This module contains all Sous Chefs which deal with Facebook via \`facepy\`.
+
 
 ## Installation
 
 ```bash
+$ mkvirtualenv newslynx-sc-facebook
 $ git clone https://github.com/newslynx/newslynx-sc-facebook.git
 $ cd newslynx-sc-facebook
 $ pip install .
@@ -21,7 +22,7 @@ Requires `nose`
 $ nosetests
 ```
 
-## Documenation
+## Documentation
 
 Documentation for `newslynx-sc-facebook` is hosted on [Read The Docs](http://newslynx-sc-facebook.readthedocs.org/).
 
@@ -29,7 +30,7 @@ It's generated via the following steps
 
 * converts this file (`README.md`) into a ReStructured Text file, saving it to [docs/index.rst](https://github.com/newslynx/newslynx-sc-facebook/blob/master/docs/index.rst)
 * runs `newslynx sc-docs newslynx_sc_facebook -f rst` to generate documentation for all the Sous Chefs in `newslynx-sc-facebook` and saves the output to [docs/sous-chefs.rst](https://github.com/newslynx/newslynx-sc-facebook/blob/master/docs/sous-chefs.rst)
-* Builds Sphinx Documentaiton from these files.
+* Builds Sphinx Documentation from these files.
 
 
 ## Continuous Integration
@@ -57,7 +58,7 @@ See the [contributing guidelines](https://github.com/newslynx/newslynx-sc-facebo
 	* See the docs on this [here](https://docs.python.org/2/distutils/sourcedist.html#specifying-the-files-to-distribute).
 
 - [setup.py](https://github.com/newslynx/newslynx-sc-facebook/blob/master/setup.py)
-	* Specification's for building `newslynx-sc-facebook`'s PyPI dsitribution.
+	* Specification's for building `newslynx-sc-facebook`'s PyPI distribution.
 
 - [.travis.yml](https://github.com/newslynx/newslynx-sc-facebook/blob/master/.travis.yml)
 	* Configurations for Travis Continuous Integration

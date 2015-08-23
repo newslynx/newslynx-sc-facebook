@@ -46,7 +46,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'newslynx-sc-facebook'
-copyright = u'2015, Brian Abelson'
+copyright = u'2015, Merlynne'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -190,23 +190,23 @@ htmlhelp_basename = 'newslynx-sc-facebookdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
-latex_elements = {
-    # The paper size ('letterpaper' or 'a4paper').
-    #'papersize': 'letterpaper',
+# latex_elements = {
+#     # The paper size ('letterpaper' or 'a4paper').
+#     #'papersize': 'letterpaper',
 
-    # The font size ('10pt', '11pt' or '12pt').
-    #'pointsize': '10pt',
+#     # The font size ('10pt', '11pt' or '12pt').
+#     #'pointsize': '10pt',
 
-    # Additional stuff for the LaTeX preamble.
-    #'preamble': '',
-}
+#     # Additional stuff for the LaTeX preamble.
+#     #'preamble': '',
+# }
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 # latex_documents = [
 #     ('index', 'newslynx-sc-facebook.tex', u'newslynx-sc-facebook Documentation',
-#      u'Brian Abelson', 'manual'),
+#      u'Merlynne', 'manual'),
 # ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -236,7 +236,7 @@ latex_elements = {
 # (source start file, name, description, authors, manual section).
 # man_pages = [
 #     ('index', 'newslynx-sc-facebook', u'newslynx-sc-facebook Documentation',
-#      [u'Brian Abelson'], 1)
+#      [u'Merlynne'], 1)
 # ]
 
 # If true, show URL addresses after external links.
@@ -250,7 +250,7 @@ latex_elements = {
 #  dir menu entry, description, category)
 # texinfo_documents = [
 #     ('index', 'newslynx-sc-facebook', u'newslynx-sc-facebook Documentation',
-#      u'Brian Abelson', 'newslynx-sc-facebook', 'This module contains all Sous Chefs which deal with Facebook via \`facepy\`.',
+#      u'Merlynne', 'newslynx-sc-facebook', '',
 #      'Miscellaneous'),
 # ]
 
