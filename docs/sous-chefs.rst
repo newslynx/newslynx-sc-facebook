@@ -71,6 +71,9 @@ accepts the following
 
 -  ``page_id``
 
+   -  This is what comes after the "facebook.com/" in the url for your
+      facebook page. Do not include the full URL.
+
    -  **Required**
    -  Should be rendered with a ``text`` form.
    -  Accepts inputs of type:
@@ -78,6 +81,9 @@ accepts the following
       -  ``string``
 
 -  ``must_link``
+
+   -  Only create an event if there is a link to an existing content
+      item.
 
    -  **Required**
    -  Should be rendered with a ``checkbox-single`` form.
@@ -93,6 +99,8 @@ accepts the following
 
 -  ``search_query``
 
+   -  A search query to apply to the text and urls of posts on the page
+
    -  **Required**
    -  Should be rendered with a ``text`` form.
    -  Accepts inputs of type:
@@ -103,6 +111,10 @@ accepts the following
 
 -  ``set_event_title``
 
+   -  Set's the title of the resulting events. This can be a python
+      format string which has access to all of an event's top-level
+      keys: IE: "Content from {authors} at {created}."
+
    -  Should be rendered with a ``text`` form.
    -  Accepts inputs of type:
 
@@ -112,6 +124,10 @@ accepts the following
 
 -  ``set_event_description``
 
+   -  Set's the description of the output events. This can be a python
+      format string which has access to all of an event's top-level
+      keys: IE: "{title}."
+
    -  Should be rendered with a ``paragraph`` form.
    -  Accepts inputs of type:
 
@@ -120,6 +136,9 @@ accepts the following
    -  Defaults to ``None``
 
 -  ``event_status``
+
+   -  Set the status of the resulting events. Choose from pending and
+      approved. Defaults to pending.
 
    -  Should be rendered with a ``select`` form.
    -  Choose from:
@@ -135,6 +154,9 @@ accepts the following
 
 -  ``set_event_tag_ids``
 
+   -  A list of Tag IDs or slugs to automatically apply to events
+      created by this recipe.
+
    -  Should be rendered with a ``checkbox`` form.
    -  Choose from:
 
@@ -146,6 +168,9 @@ accepts the following
    -  Defaults to ``[]``
 
 -  ``set_event_content_items``
+
+   -  A list of Content Item IDs and Titles to automatically apply to
+      events created by this Recipe.
 
    -  Should be rendered with a ``search`` form.
    -  Choose from:
@@ -225,6 +250,9 @@ In addition to default recipe options,
 ``facebook-page-to-org-timeseries`` also accepts the following
 
 -  ``page_id``
+
+   -  This is what comes after the "facebook.com/" in the url for your
+      facebook page. Do not include the full URL.
 
    -  **Required**
    -  Should be rendered with a ``text`` form.
