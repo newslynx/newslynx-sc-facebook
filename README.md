@@ -8,7 +8,6 @@ This module contains all Sous Chefs which deal with Facebook via \`facepy\`.
 ## Installation
 
 ```bash
-$ mkvirtualenv newslynx-sc-facebook
 $ git clone https://github.com/newslynx/newslynx-sc-facebook.git
 $ cd newslynx-sc-facebook
 $ pip install .
