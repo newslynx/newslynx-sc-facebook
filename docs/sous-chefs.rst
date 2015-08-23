@@ -11,22 +11,6 @@ Facebook Page to Event
    ``newslynx_sc_facebook.events.Page``.
 -  API Slug: ``facebook-page-to-event``
 
-Development
-^^^^^^^^^^^
-
-Pass runtime options to ``facebook-page-to-event`` and stream output.
-**NOTE** Will not execute the SousChef's ``load`` method.
-
-.. code:: bash
-
-    $ newslynx sc newslynx_sc_facebook/facebook_page_to_event.yaml option=value1
-
-Alternatively pass in a recipe file
-
-.. code:: bash
-
-    $ newslynx sc newslynx_sc_facebook/facebook_page_to_event.yaml --recipe=recipe.yaml
-
 API Usage
 ^^^^^^^^^
 
@@ -62,6 +46,22 @@ method.
 .. code:: bash
 
     $ newslynx api recipes cook id=<id> --passthrough **options
+
+Development
+^^^^^^^^^^^
+
+Pass runtime options to ``facebook-page-to-event`` and stream output.
+**NOTE** Will not execute the SousChef's ``load`` method.
+
+.. code:: bash
+
+    $ newslynx sc newslynx_sc_facebook/facebook_page_to_event.yaml option=value1
+
+Alternatively pass in a recipe file
+
+.. code:: bash
+
+    $ newslynx sc newslynx_sc_facebook/facebook_page_to_event.yaml --recipe=recipe.yaml
 
 Options
 ^^^^^^^
@@ -191,22 +191,6 @@ Facebook Page Timeseries Metrics
    ``newslynx_sc_facebook.metrics.Page``.
 -  API Slug: ``facebook-page-to-org-timeseries``
 
-Development
-^^^^^^^^^^^
-
-Pass runtime options to ``facebook-page-to-org-timeseries`` and stream
-output. **NOTE** Will not execute the SousChef's ``load`` method.
-
-.. code:: bash
-
-    $ newslynx sc newslynx_sc_facebook/facebook_page_to_org_timeseries.yaml option=value1
-
-Alternatively pass in a recipe file
-
-.. code:: bash
-
-    $ newslynx sc newslynx_sc_facebook/facebook_page_to_org_timeseries.yaml --recipe=recipe.yaml
-
 API Usage
 ^^^^^^^^^
 
@@ -242,6 +226,22 @@ method.
 .. code:: bash
 
     $ newslynx api recipes cook id=<id> --passthrough **options
+
+Development
+^^^^^^^^^^^
+
+Pass runtime options to ``facebook-page-to-org-timeseries`` and stream
+output. **NOTE** Will not execute the SousChef's ``load`` method.
+
+.. code:: bash
+
+    $ newslynx sc newslynx_sc_facebook/facebook_page_to_org_timeseries.yaml option=value1
+
+Alternatively pass in a recipe file
+
+.. code:: bash
+
+    $ newslynx sc newslynx_sc_facebook/facebook_page_to_org_timeseries.yaml --recipe=recipe.yaml
 
 Options
 ^^^^^^^
