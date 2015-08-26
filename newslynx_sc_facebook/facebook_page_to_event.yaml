@@ -7,7 +7,7 @@ option_order:
     - name
     - slug
     - description
-    - page_name
+    - page_id
     - search_query
     - must_link
     - schedule_by
