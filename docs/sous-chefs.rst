@@ -11,31 +11,57 @@ Facebook Page to Event
    ``newslynx_sc_facebook.events.Page``.
 -  API Slug: ``facebook-page-to-event``
 
-API Usage
-^^^^^^^^^
+Usage
+^^^^^
+
+Standalone
+''''''''''
+
+Run this Sous Chef via the api, passing in arbitrary runtime options,
+and stream it's output.
+
+.. code:: shell
+
+    $ newslynx api sous-chefs cook -d=newslynx_sc_facebook/facebook_page_to_event.yaml --passthrough **options
+
+Run this Sous Chef via the api, and if applicable, send it's output to
+bulkload.
+
+.. code:: shell
+
+    $ newslynx api sous-chefs cook -d=newslynx_sc_facebook/facebook_page_to_event.yaml **options
+
+Do either of the above two, but pass in a recipe file
+
+.. code:: shell
+
+    $ newslynx api sous-chefs cook -d=recipe.yaml
+
+Recipes
+'''''''
 
 Add this Sous Chef to your authenticated org
 
-.. code:: bash
+.. code:: shell
 
     $ newslynx api sous-chefs create -d=newslynx_sc_facebook/facebook_page_to_event.yaml
 
 Create a Recipe with this Sous Chef with command line options.
 
-.. code:: bash
+.. code:: shell
 
     $ newslynx api recipes create sous_chef=facebook-page-to-event **options
 
 Alternatively pass in a recipe file.
 
-.. code:: bash
+.. code:: shell
 
     $ newslynx api recipes create sous_chef=facebook-page-to-event --data=recipe.yaml
 
 Save the outputted ``id`` of this recipe, and execute it via the API.
 **NOTE** This will place the recipe in a task queue.
 
-.. code:: bash
+.. code:: shell
 
     $ newslynx api recipes cook id=<id>
 
@@ -43,25 +69,25 @@ Alternatively, run the Recipe, passing in arbitrary runtime options, and
 stream it's output: **NOTE** Will not execute the SousChef's ``load``
 method.
 
-.. code:: bash
+.. code:: shell
 
     $ newslynx api recipes cook id=<id> --passthrough **options
 
 Development
-^^^^^^^^^^^
+'''''''''''
 
 Pass runtime options to ``facebook-page-to-event`` and stream output.
 **NOTE** Will not execute the SousChef's ``load`` method.
 
-.. code:: bash
+.. code:: shell
 
-    $ newslynx sc newslynx_sc_facebook/facebook_page_to_event.yaml option=value1
+    $ newslynx sc-run newslynx_sc_facebook/facebook_page_to_event.yaml option=value1
 
 Alternatively pass in a recipe file
 
-.. code:: bash
+.. code:: shell
 
-    $ newslynx sc newslynx_sc_facebook/facebook_page_to_event.yaml --recipe=recipe.yaml
+    $ newslynx sc-run newslynx_sc_facebook/facebook_page_to_event.yaml --recipe=recipe.yaml
 
 Options
 ^^^^^^^
@@ -191,31 +217,57 @@ Facebook Page Timeseries Metrics
    ``newslynx_sc_facebook.metrics.Page``.
 -  API Slug: ``facebook-page-to-org-timeseries``
 
-API Usage
-^^^^^^^^^
+Usage
+^^^^^
+
+Standalone
+''''''''''
+
+Run this Sous Chef via the api, passing in arbitrary runtime options,
+and stream it's output.
+
+.. code:: shell
+
+    $ newslynx api sous-chefs cook -d=newslynx_sc_facebook/facebook_page_to_org_timeseries.yaml --passthrough **options
+
+Run this Sous Chef via the api, and if applicable, send it's output to
+bulkload.
+
+.. code:: shell
+
+    $ newslynx api sous-chefs cook -d=newslynx_sc_facebook/facebook_page_to_org_timeseries.yaml **options
+
+Do either of the above two, but pass in a recipe file
+
+.. code:: shell
+
+    $ newslynx api sous-chefs cook -d=recipe.yaml
+
+Recipes
+'''''''
 
 Add this Sous Chef to your authenticated org
 
-.. code:: bash
+.. code:: shell
 
     $ newslynx api sous-chefs create -d=newslynx_sc_facebook/facebook_page_to_org_timeseries.yaml
 
 Create a Recipe with this Sous Chef with command line options.
 
-.. code:: bash
+.. code:: shell
 
     $ newslynx api recipes create sous_chef=facebook-page-to-org-timeseries **options
 
 Alternatively pass in a recipe file.
 
-.. code:: bash
+.. code:: shell
 
     $ newslynx api recipes create sous_chef=facebook-page-to-org-timeseries --data=recipe.yaml
 
 Save the outputted ``id`` of this recipe, and execute it via the API.
 **NOTE** This will place the recipe in a task queue.
 
-.. code:: bash
+.. code:: shell
 
     $ newslynx api recipes cook id=<id>
 
@@ -223,25 +275,25 @@ Alternatively, run the Recipe, passing in arbitrary runtime options, and
 stream it's output: **NOTE** Will not execute the SousChef's ``load``
 method.
 
-.. code:: bash
+.. code:: shell
 
     $ newslynx api recipes cook id=<id> --passthrough **options
 
 Development
-^^^^^^^^^^^
+'''''''''''
 
 Pass runtime options to ``facebook-page-to-org-timeseries`` and stream
 output. **NOTE** Will not execute the SousChef's ``load`` method.
 
-.. code:: bash
+.. code:: shell
 
-    $ newslynx sc newslynx_sc_facebook/facebook_page_to_org_timeseries.yaml option=value1
+    $ newslynx sc-run newslynx_sc_facebook/facebook_page_to_org_timeseries.yaml option=value1
 
 Alternatively pass in a recipe file
 
-.. code:: bash
+.. code:: shell
 
-    $ newslynx sc newslynx_sc_facebook/facebook_page_to_org_timeseries.yaml --recipe=recipe.yaml
+    $ newslynx sc-run newslynx_sc_facebook/facebook_page_to_org_timeseries.yaml --recipe=recipe.yaml
 
 Options
 ^^^^^^^
