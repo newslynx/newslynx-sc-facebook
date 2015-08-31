@@ -10,29 +10,13 @@ Production
 ~~~~~~~~~~
 
 To install ``newslynx-sc-facebook`` for an active installation of
-``newslynx-core``, clone it and copy into ``~/.newslynx/sous-chefs``
+``newslynx-core``, run the following command:
 
 .. code:: bash
 
-    $ git clone https://github.com/newslynx/newslynx-sc-facebook.git
-    $ mv newslynx-sc-facebook/ ~/.newslynx/sous-chefs/
+    $ newslynx sc-install https://github.com/newslynx/newslynx-sc-facebook.svg.git
 
-Now install it within the same virtual environment as ``newslynx``:
-
-.. code:: bash
-
-    $ cd ~/.newslynx/sous-chefs/newslynx-sc-facebook/
-    $ pip install .
-
-... and if you're running ``newslynx`` as ``sudo``
-
-.. code:: bash
-
-    $ cd ~/.newslynx/sous-chefs/newslynx-sc-facebook/ 
-    $ sudo pip install .
-
-Finally, run ``newslynx sc-sync`` to ``newslynx-sc-facebook``'s Sous
-Chefs for all organizations.
+To add ``newslynx-sc-facebook`` all orgnaizations, run:
 
 .. code:: bash
 
@@ -41,14 +25,13 @@ Chefs for all organizations.
 Development
 ~~~~~~~~~~~
 
-If you want to modify / add Sous Chefs to ``newslynx-sc-facebook``,
-instal it in it's own virtual environment.
+If you want to modify / add Sous Chefs to ``newslynx-sc-facebook``, do
+the following:
 
 **NOTE** Will install a fresh version of ``newslynx`` via ``pip``.
 
 .. code:: bash
 
-    $ mkvirtualenv newslynx-sc-facebook
     $ git clone https://github.com/newslynx/newslynx-sc-facebook.git
     $ cd newslynx-sc-facebook
     $ pip install --editable .
@@ -58,7 +41,7 @@ development mode
 
 .. code:: bash
 
-    % newslynx sc newslynx_sc_facebook/say_my_name.yaml --myname='Brian Abelson'
+    % newslynx sc-run newslynx_sc_facebook/say_my_name.yaml --myname='Brian Abelson'
 
 Tests
 -----
