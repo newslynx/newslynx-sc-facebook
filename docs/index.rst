@@ -14,7 +14,7 @@ To install ``newslynx-sc-facebook`` for an active installation of
 
 .. code:: bash
 
-    $ newslynx sc-install https://github.com/newslynx/newslynx-sc-facebook.svg.git
+    $ newslynx sc-install https://github.com/newslynx/newslynx-sc-facebook.git
 
 To add ``newslynx-sc-facebook`` all orgnaizations, run:
 
